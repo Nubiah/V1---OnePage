@@ -1,0 +1,478 @@
+							/**********************************************************
+												CSS DESKTOP + TAB
+							**********************************************************/
+
+/*********************************************GLOBAL*********************************************/
+body {
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+	height: 200px;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #f8f8f8;
+}
+
+.center_font {
+	width: 960px;
+	margin: auto;
+	padding-top: 30px;
+	font-size: 0px;
+	background-color: white;
+}
+
+.logo {
+	float: left;
+	width: 60px;
+	height: 62px;
+	margin: 0px 0px 0px 17%;
+}
+
+i {
+	padding: 5px;
+	float: right;
+	/*margin: 0px 0px 0px 70%;*/
+}
+
+/*********************************************HEADER*********************************************/
+
+.top_menu {
+	line-height: 60px;
+	height: 62px;
+	width: 100%;
+	background-color: white;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	position: fixed;
+	opacity: .9;
+	transition: opacity .3s;
+}
+
+.top_menu:hover {
+	opacity: 1;
+}
+
+nav {
+	line-height: 30px;
+	margin: 0px 17% 0px 0px;
+	padding: 0;
+	float: right;
+}
+
+nav ul {
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+
+nav ul li a {
+	margin: 10px;
+	color: #2c3e50;
+	transition: all .5s;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #3498db;
+}
+
+/*********************************************SLIDER*********************************************/
+
+.slider {
+	position: relative;
+	overflow: hidden;
+}
+
+.slider video {
+	width: 100%;
+}
+
+.titre_page {
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Open Sans';
+	color: white;
+	text-shadow: black 0px 0px 5px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.titre_page p {
+	margin: 0px;
+}
+
+.titre_page_2 {
+	opacity: 0;
+}
+
+.slider2 {
+	background: url('../img/overlay-video.png');
+}
+
+.titre_page p:nth-child(3){
+	font-size: 30px;
+}
+
+.titre_page a {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	margin-top: 30px;
+	position: relative;
+	opacity: 1;
+}
+
+.titre_page img {
+	height: auto;
+}
+
+/*********************************************SKILL*********************************************/
+
+.skill {
+	width: 33.33%;
+	display: inline-block;
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Open Sans';
+}
+
+.skill p {
+	padding: 0px 10px 0px 10px;
+}
+
+.skill img {
+	width: 150px;
+	height: 150px;
+	opacity: .7;
+}
+
+.titre_skill {
+	font-size: 22px;
+}
+
+/*********************************************EXPERIENCE*********************************************/
+
+.experience {
+	list-style: none;
+	margin: 40px 0px 0px 35px;
+	padding: 0px;	
+}
+
+.experience li {
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	opacity: .5;
+	transition: .3s;
+}
+
+.experience li:hover {
+	opacity: 1;
+}
+
+.text_titre {
+	font-size: 26px;
+	font-family: 'Open Sans';
+	color: #34495e;
+	margin: 80px 0px 0px 30px;
+}
+
+
+/*********************************************ABOUT*********************************************/
+
+
+.about {
+	margin-top: 100px;
+}
+
+.about img {
+	width: 15%;
+	height: auto;
+	margin: 10px 15px 45px 25px;
+	display: inline-block;
+}
+
+.about_text {
+	width: 75%;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	margin: 10px;
+	display: inline-block;
+	text-align: justify;
+}
+
+.about_text em {
+	margin: 0px 20% 0px 20%;
+}
+
+.citation {
+	margin: 0px 0px 0px 39%;
+}
+
+/*********************************************FORMULAIRE*********************************************/
+
+.coord {
+	width: 100%;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+
+.coord h1 {
+	font-size: 26px;
+	font-family: 'Open Sans';
+	color: #34495e;
+	margin: 20px 0px 0px 20px;
+}
+
+.coord h2 {
+	font-size: 12px;
+	font-family: 'Open Sans';
+}
+
+.coord a {
+	text-decoration: none;
+	color: #34495e;
+	transition: .3s;
+}
+
+.coord a:hover {
+	color: #3498db;
+}
+
+/*********************************************FOOTER*********************************************/
+
+footer {
+	margin: 70px 0px 0px 0px;
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+	clear: both;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	opacity: .8;
+}
+footer ul li a {
+ 	text-decoration: none;
+	color: black;
+	margin: 10px;
+ }
+
+footer ul li a:hover {
+ 	color: #3498db;
+}
+
+/*********************************************MENU FLOTTANT*********************************************/
+
+.cadre-menu {
+	position: fixed;
+	left: -100px;
+	top: 0px;
+	height: 100%;
+	overflow: hidden;
+	width: 150px;
+	font: 14px 'Open Sans';
+}
+
+.bordure-menu {
+	float: left;
+	width: 100px;
+	height: 100%;
+	background-color: white;
+	opacity: .9;
+}
+
+.bordure-menu ul {
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 225%;
+}
+
+.bordure-menu ul li{
+	margin: 10px 0px 10px 0px;
+}
+
+.bordure-menu ul li a {
+	color:#2c3e50;
+	text-decoration: none;
+	transition: .5s;
+}
+
+.bordure-menu ul li a:hover {
+	color: #3498db;
+}
+
+.bouton-menu {
+	float: right;
+	width: 50px;
+	height: 100%;
+	background:url('../img/right_arrow.png') center no-repeat; 
+}
+
+.twitter {
+	width: 33%;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+
+.twitter-timeline {
+	width: 100%;
+}
+
+.twitch {
+
+	margin: 0px 0px 0px 10px;
+	display: inline-block;
+}
+
+.content_stream {
+	margin: 20px 0px 0px 0px;
+}
+
+
+						/**********************************************************
+											CSS MOBILE < 400px
+						**********************************************************/
+
+@media screen and (max-width: 992px) {
+	.titre_page {
+		font-size: 45px;
+	}
+	.titre_page p:nth-child(2){
+		font-size: 17px;
+	}
+
+	.titre_page a {
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+		margin-top: 20px;
+		position: relative;
+		opacity: 1;
+	}
+
+	.center_font {
+		width: 100%;
+		margin: auto;
+		padding-top: 10px;
+		font-size: 0px;
+		background-color: white;
+	}
+
+	.skill {
+		width: 100%;
+		margin: 15px 0px 0px 0px;
+		text-align: center;
+		font-size: 12px;
+		font-family: 'Open Sans';
+	}
+
+	.skill p {
+		padding: 0px 10px 0px 10px;
+	}
+
+	.skill img {
+		width: 75px;
+		height: 75px;
+		opacity: .7;
+		float: left;
+		margin: 0px 10px 0px 10px;
+	}
+
+	.titre_skill {
+		font-size: 17px;
+	}
+
+	.text_titre {
+		font-size: 25px;
+		font-family: 'Open Sans';
+		color: #34495e;
+		margin: 40px 0px 0px 30px;
+	}
+
+	.cadre-menu {
+		display: none;
+	}
+	
+	.experience {
+		list-style: none;
+		margin: 30px 0px 0px 0px;
+		padding: 0px;	
+	}
+
+	.experience li {
+		width: 50%;
+		height: auto;
+		display: inline-block;
+		margin: 0px;
+		padding: 0px;
+		opacity: .5;
+		transition: .3s;
+	}
+
+	.about {
+		margin: 40px 0px 0px 0px;
+	}
+
+	.about img {
+		width: 150px;
+		height: auto;
+		margin: 20px 15px 20px 30%;
+		display: inline-block;
+	}
+
+	.about_text {
+		width: 98%;
+		font-size: 12px;
+		padding: 5px;
+		font-family: 'Open Sans';
+		display: inline-block;
+		text-align: justify;
+		margin: 0px;
+	}
+
+	.about_text em {
+		margin: 0px 0px 0px 0px;
+	}
+
+	.citation {
+		margin: 0px 0px 0px 5%;
+	}
+
+	.twitter {
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin: 0px 10px 0px 10px;
+	}
+
+	.twitch {
+		display: none;
+	}
+
+/********************************************************/
+}
